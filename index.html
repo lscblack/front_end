@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <style>
+            *{
+                font-family: sans-serif;
+                box-sizing: border-box;
+                color: #0d2340;
+            }
+            body{
+                background: #edefef;
+ 
+            }
+            .myForm{
+                background:rgb(254, 254, 254);
+                max-width: 400px;
+                margin: 100px auto;
+                padding: 50px;
+                border-radius: 10px;
+            }
+            img{
+                margin:10px auto;
+                display: block;
+            }
+            label{
+                text-align: center;
+                display: block;
+                font-weight: bold;
+            }
+            .inputs{
+                padding: 10px;
+                width: 100%;
+                margin: 10px auto;
+                outline: none;
+                border-radius: 5px;
+                border: 1px solid #dfe2e2;
+            }
+            .btn{
+                background: rgb(201, 14, 14);
+                padding: 10px;
+                border-radius: 5px;
+                display: block;
+                margin: 10px auto;
+                cursor: pointer;
+                border: 0px;
+                font-weight: bold;
+                color:white;
+
+            }
+            .link{
+                margin: 10px auto;
+                display: block;
+                text-align: center;
+                color: rgb(201, 14, 14);
+            }
+
+        </style>
+    </head>
+    <body>
+       <form action="https://intranet.aluswe.com/" class="myForm">
+        <img src="https://miro.medium.com/v2/resize:fit:2400/1*AQuXpUGQ1EjZpP3fbrbxww.png" width="70">
+        <label>Email</label>
+        <input class="inputs" type="email" placeholder="" required/>
+        <label>Password</label>
+        <input class="inputs" type="password" placeholder="" required/>
+       <p align="center"> <input type="checkbox"> Remember Me</p>
+        <button title="Click Me To Login " class="btn">Log In</button>
+        <a class="link" href="https://intranet.aluswe.com/">Forgot Password</a>
+       </form>
+    </body>
+</html>
