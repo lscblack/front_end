@@ -1,2 +1,2 @@
 # front_end
-this repo is for beginners
+this repo is for beginners ashjdhas
